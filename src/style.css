@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.inputes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+.inputes > input{
+    width: 50vw;
+}
+  
+  .countryCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    flex-direction: column;
+    width: 200px;
+  }
